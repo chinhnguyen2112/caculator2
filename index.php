@@ -32,6 +32,9 @@
             case ':':
                 $show=$n1 / $n2;
                 break;
+            case '%':
+                $show=$n1 % $n2;
+                break;
              default:
                  $show=$n1+$n2;
                  $caculate="+";
